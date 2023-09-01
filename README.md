@@ -1,4 +1,4 @@
-# Containarization of Lravel nginx mysql application in docker using docker compose and Dockerfile.
+# Containerization of Lravel nginx mysql application in docker using docker compose and Dockerfile.
 This projects runs a laravel (php8.1-fpm) application on nginx and establish connection with mysql database. 
 # How to use it?
 #### 1-First you should have docker installed in your system
