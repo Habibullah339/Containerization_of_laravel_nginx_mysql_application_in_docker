@@ -1,5 +1,29 @@
 # Containarization of Lravel nginx mysql in docker using docker compose and Dockerfile.
-This projects runs a laravel application on nginx and establish connection with mysql database.
+This projects runs a laravel (php8.1-fpm) application on nginx and establish connection with mysql database. 
+# How to use it?
+#### 1-First you should have docker installed in your system
+#### 2-Clone this repository into your local system using
+```bash
+git clone <URL>
+```
+#### 3-Move to the project directory using `cd`
+```bash
+cd 
+```
+#### 4-Run the following commands
+###### 
+```bash 
+sudo docker-compose build
+ ```
+###### 
+```bash
+sudo docker-compose up -d
+```
+#### 5-To stop all the resources
+```bash
+sudo docker-compose down
+```
+# How this project is build
 ## Step 01
 ##### Created these files and directories where laravel project files are located
 ##### 1-docker-compose.yml
